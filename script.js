@@ -7,43 +7,43 @@ var arr = [
   {level: 2, val1: 'n', val2: 'NN'},
   {level: 3, val1: 'y', val2: 'YY'},
   {level: 2, val1: 'm', val2: 'MM'},
+  {level: 2, val1: 'm', val2: 'AA'},
   {level: 1, val1: 'a', val2: 'AA'},
   {level: 2, val1: 'w', val2: 'WW'},
   {level: 2, val1: 'q', val2: 'QQ'},
   {level: 3, val1: 'x', val2: 'XX'},
 ]
 
-setParent()
-//console.log(arr)
-additionalLevels = 2;
+setInheritance()
 
+//add more levels if necessary, no need to automate
 groupedArr = [getLevelAndSort(1), getLevelAndSort(2), getLevelAndSort(3)]
-//console.log(groupedArr)
-//need a collection to concatenate based on parent relationship
 
-var finalSorted = []
+var sorted = []
 groupedArr[0].forEach(v=>{
-
-  if(!v.child){
-
-    finalSorted.push(v)
-  } else {
-    //console.log(v.child)
-    finalSorted.push(v)
-    index = findChildContainingPair(groupedArr[1], v.child)
-    //console.log(index)
-    finalSorted = finalSorted.concat(groupedArr[1][index])
+  sorted.push(v)
+  if(v.child){
+    index = findPairInBinomial(groupedArr[1], v.child)
+    sorted = sorted.concat(groupedArr[1][index])
   }
-
 })
 
-console.log(finalSorted)
+finalsorted = []
+sorted.forEach((v,i,a)=>{
+  finalsorted.push(v)
+  if(v.level==2 && v.child){
+    index = findPairInBinomial(groupedArr[2], v.child)
+    finalsorted = finalsorted.concat(groupedArr[2][index])
+  }
+})
 
+//the ultimate concat function
 
-function findChildContainingPair(bidimArr, strArr){
+console.log(finalsorted)
+
+function findPairInBinomial(bidimArr, strArr){
   for(i=0; i<bidimArr.length; i++){
     for(j=0; j<bidimArr[i].length; j++){
-      //console.log(bidimArr[i][j])
       if(bidimArr[i][j].val1 == strArr[0] &&
           bidimArr[i][j].val2 == strArr[1]){
             return i;
@@ -52,17 +52,7 @@ function findChildContainingPair(bidimArr, strArr){
   }
 }
 
-// groupedArr[1].forEach((v,i,a)=>{
-//   //console.log(a[i])
-//   a[i].forEach((val,idx,arr)=>{
-//    // console.log(arr[idx])
-//     if(arr[idx].val1=='w' && arr[idx].val2=='WW')
-//       console.log(i)
-//   })
-// })
-
-
-function setParent(){
+function setInheritance(){
   arr.forEach((v,i,a)=>{
     if(i>0 && arr[i].level>arr[i-1].level){
       arr[i].parent = [arr[i-1].val1, arr[i-1].val2];
@@ -104,28 +94,16 @@ function getLevelAndSort(level){
 }
 
 function comp(a,b){
-  a = a.val1;
-  b = b.val1;
-  if(a==b) return 0;
-  x = a < b ? -1 : 1;
+  a1 = a.val1;
+  b1 = b.val1;
+  if(a1==b1){
+    a2 = a.val2
+    b2 = b.val2
+    if(a2==b2) return 0
+    x = a2 < b2 ? -1 : 1;
+    return x;
+  };
+  x = a1 < b1 ? -1 : 1;
   return x;
 }
 
-
-/*
-let arr = [1, 4, 7, 45, 7,43, 44, 25, 6, 4, 6, 9];
-let sorted = false
-
-while(!sorted) {
-  sorted = true
-  for(var i=0; i < arr.length; i++) {
-    if(arr[i] < arr[i-1]) {
-      let temp = arr[i];
-      arr[i] = arr[i-1];
-      arr[i-1] = temp;
-      sorted = false;
-    }
-  }
-}
-
-*/
