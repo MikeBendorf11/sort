@@ -14,6 +14,44 @@ var arr = [
   {level: 3, val1: 'x', val2: 'XX'},
 ]
 
+function transform(arr){
+  let root = currentNode = { children: [] }
+  let parent = undefined
+  let parentNodes = []
+  level = 0;
+  for(let x of arr){
+    if(x.level == level){
+      currentNode = {children: [], ...x}
+      parent.children.push(currentNode)
+    } else if(x.level > level){
+      level = x.level
+      parentNodes.push(parent)
+      parent = currentNode
+      currentNode = {children: [], ...x}
+      parent.children.push(currentNode)
+    } else if(x.level < level){
+      level = x.level
+      parent = parentNodes.pop()
+      currentNode = {children: [], ...x}
+      parent.children.push(currentNode)
+    }
+   // {val: parent.val1, children: parent.children.map(item => item.val1)}
+  }
+  return root;
+}
+
+function sortTree(tree){
+  tree.children.sort((a,b) => a.val1 < b.val1? -1: 1)
+  for(const child of tree.children){
+      sortTree(child)
+  }
+}
+
+const x = transform(arr)
+sortTree(x)
+console.log(JSON.stringify(x, null, 2))
+console.log(x)
+/*
 setInheritance()
 
 //add more levels if necessary, no need to automate
@@ -107,3 +145,4 @@ function comp(a,b){
   return x;
 }
 
+*/

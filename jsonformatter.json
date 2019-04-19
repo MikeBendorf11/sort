@@ -1,0 +1,2960 @@
+﻿[
+  {
+    "NodeLevel": 0,
+    "NodeScore": 0,
+    "MatchType": "null - null",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": "Deposit",
+      "Value": "deposit_Zn-Pbskarn - deposit",
+      "Frequency": "present",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": "Deposit",
+      "Value": "deposit_BRZ634088 - deposit",
+      "Frequency": "present",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": null,
+    "Advice": null
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10023",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_40 - Silver",
+      "Frequency": "sometimes",
+      "Label": "Silver",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Silver is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Silver present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_65",
+      "Attribute": "depositHasWeathering",
+      "Value": "weathassemblage_1 - Weathering",
+      "Frequency": "sometimes",
+      "Label": "weathassemblage_1",
+      "Comment": "weathAssemblage 1. Gossan with strong Mn oxide stains.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_69",
+      "Attribute": "weatheringHasMineralEnhanced",
+      "Value": "mineral_20 - Oxides",
+      "Frequency": "usually",
+      "Label": "Oxides",
+      "Comment": "mn_oxides.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_66",
+      "Attribute": "weatheringHasColour",
+      "Value": "colour_01 - black",
+      "Frequency": "sometimes",
+      "Label": "black",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_67",
+      "Attribute": "weatheringHasElementEnhanced",
+      "Value": "element_13 - Mn",
+      "Frequency": "usually",
+      "Label": "Mn",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10013",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_30 - Magnetite",
+      "Frequency": "sometimes",
+      "Label": "Magnetite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Magnetite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Magnetite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10014",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_31 - Chalcopyrite",
+      "Frequency": "sometimes",
+      "Label": "Chalcopyrite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Chalcopyrite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Chalcopyrite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10015",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_32 - Bornite",
+      "Frequency": "sometimes",
+      "Label": "Bornite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Bornite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Bornite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_97",
+      "Attribute": "depositHasRockCountry",
+      "Value": "earthmaterial_06 - syenite",
+      "Frequency": "sometimes",
+      "Label": "syenite",
+      "Comment": "Rock def.©BGS. Coarse-grained, av. between 2-16mm normal crystalline intrusive rock; quartz< 5% of QAPF, feldspar 65-90% alkali feldspar, +/- mica/amphibole",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that syenite is sometimes present.\", \"suggestion\":\"Check whether the instance has syenite present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_990",
+      "Attribute": "rockCountryHasRockTexture",
+      "Value": "rocktexture_06 - porphyritic",
+      "Frequency": "sometimes",
+      "Label": "porphyritic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_96",
+      "Attribute": "depositHasRockCountry",
+      "Value": "earthmaterial_05 - diorite",
+      "Frequency": "sometimes",
+      "Label": "diorite",
+      "Comment": "Rock def.©BGS. Coarse-grained, av. between 2-16mm normal crystalline intrusive rock; quartz <5% of QAPF, feldspar >90% plagioclase (<50% An), +/- mica/pyroxene/amphibole/olivine",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that diorite is sometimes present.\", \"suggestion\":\"Check whether the instance has diorite present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_992",
+      "Attribute": "rockCountryHasRockTexture",
+      "Value": "rocktexture_08 - porphyritic",
+      "Frequency": "sometimes",
+      "Label": "porphyritic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_95",
+      "Attribute": "depositHasRockCountry",
+      "Value": "earthmaterial_04 - granodiorite",
+      "Frequency": "sometimes",
+      "Label": "granodiorite",
+      "Comment": "Rock def.©BGS. Coarse-grained, av. between 2-16mm normal crystalline intrusive rock; quartz 20-60% of QAPF, feldspar 65-90% plagioclase +/- mica/amphibole",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that granodiorite is sometimes present.\", \"suggestion\":\"Check whether the instance has granodiorite present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_991",
+      "Attribute": "rockCountryHasRockTexture",
+      "Value": "rocktexture_07 - porphyritic",
+      "Frequency": "sometimes",
+      "Label": "porphyritic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_94",
+      "Attribute": "depositHasRockCountry",
+      "Value": "earthmaterial_03 - granite",
+      "Frequency": "sometimes",
+      "Label": "granite",
+      "Comment": "Rock def.©BGS. Coarse-grained, av. between 2-16mm normal crystalline intrusive rock; quartz 20-60% of QAPF, feldspar 35-90% alkali feldspar +/- mica/amphibole",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that granite is sometimes present.\", \"suggestion\":\"Check whether the instance has granite present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_989",
+      "Attribute": "rockCountryHasRockTexture",
+      "Value": "rocktexture_05 - porphyritic",
+      "Frequency": "sometimes",
+      "Label": "porphyritic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_24",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_02 - carbonate_sedimentary_rock",
+      "Frequency": "usually",
+      "Label": "carbonate_sedimentary_rock",
+      "Comment": "carbonate sediments and carbonate sedimentary rock.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that carbonate sedimentary rock is usually present.\", \"suggestion\":\"Check whether the instance has carbonate sedimentary rock present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":9010, \"noScore\":8990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_986",
+      "Attribute": "rockHostHasRockTexture",
+      "Value": "rocktexture_02 - hornfelsed",
+      "Frequency": "sometimes",
+      "Label": "hornfelsed",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_988",
+      "Attribute": "rockHostHasRockTexture",
+      "Value": "rocktexture_04 - granoblastic",
+      "Frequency": "sometimes",
+      "Label": "granoblastic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_14",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_01 - wackestone",
+      "Frequency": "sometimes",
+      "Label": "wackestone",
+      "Comment": "wacke. Calcareous clastic rocks in text.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that wackestone is sometimes present.\", \"suggestion\":\"Check whether the instance has wackestone present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_987",
+      "Attribute": "rockHostHasRockTexture",
+      "Value": "rocktexture_03 - hornfelsed",
+      "Frequency": "sometimes",
+      "Label": "hornfelsed",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_985",
+      "Attribute": "rockHostHasRockTexture",
+      "Value": "rocktexture_01 - granoblastic",
+      "Frequency": "sometimes",
+      "Label": "granoblastic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 1000,
+    "MatchType": "exact_exact_ppt - exact_AKO_val",
+    "InfocusAttribute": {
+      "Id": "6548_994",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_07 - generic_mudstone",
+      "Frequency": "sometimes",
+      "Label": "generic_mudstone",
+      "Comment": "mudstone. Shale in text.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_4",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_03 - siltstone",
+      "Frequency": "present",
+      "Label": "siltstone",
+      "Comment": "0.0. Argilito,Conglomerado,Siltito,Arenito,. clay,conglomeritic arenite,siltstone,sand,sandy argillite. From geology file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"value_taxonomic_trace\":\"siltstone is a kind of generic_mudstone .\",\"attribute_taxonomic_trace\":\"depositHasRockHost is the same attribute as depositHasRockHost .\",\"score_trace\":\"The weighted base reward of values for frequency sometimes(IF) and present(T) = 1000. Multiplier for exact match (determined by the semantic distance between them and their class levels) = 1. Therefore Score = 1000*1 =1000.\",\"descendants_score\":\"Score for matching the descendant attributes of the current values: 0. \"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10016",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_33 - Arsenopyrite",
+      "Frequency": "sometimes",
+      "Label": "Arsenopyrite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Arsenopyrite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Arsenopyrite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_13",
+      "Attribute": "depositHasDepositClassAssociated",
+      "Value": "depositclass_01 - Cu_skarn",
+      "Frequency": "sometimes",
+      "Label": "Cu_skarn",
+      "Comment": "Cu skarn.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_no_score_object\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10017",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_34 - Scheelite",
+      "Frequency": "sometimes",
+      "Label": "Scheelite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Scheelite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Scheelite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10018",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_35 - Bismuthinite",
+      "Frequency": "sometimes",
+      "Label": "Bismuthinite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Bismuthinite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Bismuthinite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10019",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_36 - Stannite",
+      "Frequency": "sometimes",
+      "Label": "Stannite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Stannite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Stannite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10020",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_37 - Fluorite",
+      "Frequency": "sometimes",
+      "Label": "Fluorite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Fluorite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Fluorite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10021",
+      "Attribute": "depositHasMineralEnhancedToOre",
+      "Value": "mineral_38 - Galena",
+      "Frequency": "usually",
+      "Label": "Galena",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Galena is usually present at enhanced to ore levels.\", \"suggestion\":\"Check whether the instance has Galena present at enhanced to ore levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":9010, \"noScore\":8990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10022",
+      "Attribute": "depositHasMineralEnhancedToOre",
+      "Value": "mineral_39 - Sphalerite",
+      "Frequency": "usually",
+      "Label": "Sphalerite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Sphalerite is usually present at enhanced to ore levels.\", \"suggestion\":\"Check whether the instance has Sphalerite present at enhanced to ore levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":9010, \"noScore\":8990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_70",
+      "Attribute": "depositHasAlteration",
+      "Value": "altassemblage_1 - Alteration",
+      "Frequency": "always",
+      "Label": "altassemblage_1",
+      "Comment": "altAssemblage 1.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_75",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_21 - Rhodonite",
+      "Frequency": "sometimes",
+      "Label": "Rhodonite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_77",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_22 - Bustamite",
+      "Frequency": "sometimes",
+      "Label": "Bustamite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_78",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_23 - Spessartine",
+      "Frequency": "sometimes",
+      "Label": "Spessartine",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_79",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_24 - Grossular",
+      "Frequency": "sometimes",
+      "Label": "Grossular",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_80",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_25 - Andradite",
+      "Frequency": "sometimes",
+      "Label": "Andradite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_81",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_26 - Hedenbergite",
+      "Frequency": "sometimes",
+      "Label": "Hedenbergite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_4",
+      "Attribute": "depositHasAlteration",
+      "Value": "altassemblage_2 - Alteration",
+      "Frequency": "usually",
+      "Label": "altassemblage_2",
+      "Comment": "altAssemblage 2.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_6",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_01 - Actinolite",
+      "Frequency": "sometimes",
+      "Label": "Actinolite",
+      "Comment": "actinolite. Late stage manganiferous variety.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_7",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_02 - Ilvaite",
+      "Frequency": "sometimes",
+      "Label": "Ilvaite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_8",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_03 - Chlorites",
+      "Frequency": "sometimes",
+      "Label": "Chlorites",
+      "Comment": "chlorites.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_9",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_04 - Dannemorite",
+      "Frequency": "sometimes",
+      "Label": "Dannemorite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10",
+      "Attribute": "alterationHasMineralEnhanced",
+      "Value": "mineral_05 - Rhodochrosite",
+      "Frequency": "sometimes",
+      "Label": "Rhodochrosite",
+      "Comment": "rhodochrosite.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "equivalent_ppts - disjoint",
+    "InfocusAttribute": {
+      "Id": "6548_2",
+      "Attribute": "depositHasAge",
+      "Value": "http://resource.geosciml.org/classifier/ics/ischart/Mesozoic-Mesozoic - http://resource.geosciml.org/classifier/ics/ischart/Mesozoic-Mesozoic",
+      "Frequency": "usually",
+      "Label": "Mesozoic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_10",
+      "Attribute": "depositHasAgeNumeric",
+      "Value": "0-1.75 - 0-1.75",
+      "Frequency": "present",
+      "Label": "0-1.75 ma",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"value_taxonomic_trace\":\"0-1.75 is disjointed with Mesozoic-Mesozoic .\",\"attribute_taxonomic_trace\":\"depositHasAgeNumeric is equivalent to depositHasAge .\",\"score_trace\":\"The weighted base reward of intervals for frequency usually(IF) and present(T) = 0.0. Multiplier (determined by the interval relations and frequency) = 1. Reward = 0.0*1 =0. Reward is scaled by 1. Therefore Final Score = 0*1 =0. \",\"descendants_score\":\"Score for matching the descendant attributes of the current values: 0. \"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10025",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_25 - Mn",
+      "Frequency": "sometimes",
+      "Label": "Mn",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Mn is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Mn present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10001",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_27 - Gold",
+      "Frequency": "sometimes",
+      "Label": "Gold",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Gold is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Gold present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10024",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_24 - Cu",
+      "Frequency": "sometimes",
+      "Label": "Cu",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Cu is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Cu present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10011",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_28 - Pyrrhotite",
+      "Frequency": "sometimes",
+      "Label": "Pyrrhotite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Pyrrhotite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Pyrrhotite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10012",
+      "Attribute": "depositHasMineralMznEnhanced",
+      "Value": "mineral_29 - Pyrite",
+      "Frequency": "sometimes",
+      "Label": "Pyrite",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Pyrite is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Pyrite present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10008",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_21 - Be",
+      "Frequency": "rarely",
+      "Label": "Be",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Be is occasionally present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Be present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":110, \"noScore\":90}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10007",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_20 - F",
+      "Frequency": "sometimes",
+      "Label": "F",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that F is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has F present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10010",
+      "Attribute": "depositHasElementEnhancedToOre",
+      "Value": "element_23 - Pb",
+      "Frequency": "usually",
+      "Label": "Pb",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Pb is usually present at enhanced to ore levels.\", \"suggestion\":\"Check whether the instance has Pb present at enhanced to ore levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":9010, \"noScore\":8990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10009",
+      "Attribute": "depositHasElementEnhancedToOre",
+      "Value": "element_22 - Zn",
+      "Frequency": "usually",
+      "Label": "Zn",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Zn is usually present at enhanced to ore levels.\", \"suggestion\":\"Check whether the instance has Zn present at enhanced to ore levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":9010, \"noScore\":8990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_3",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_02 - clay",
+      "Frequency": "present",
+      "Label": "clay",
+      "Comment": "0.0. Argilito,Conglomerado,Siltito,Arenito,. clay,conglomeritic arenite,siltstone,sand,sandy argillite. From geology file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10005",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_18 - W",
+      "Frequency": "sometimes",
+      "Label": "W",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that W is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has W present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10004",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_17 - As",
+      "Frequency": "sometimes",
+      "Label": "As",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that As are sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has As present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_29",
+      "Attribute": "depositHasMineralization",
+      "Value": "minassemblage_1 - Mineralization",
+      "Frequency": "always",
+      "Label": "minassemblage_1",
+      "Comment": "minAssemblage 1. Ore controls are carbonate rocks especially at shale-limestone contacts. Deposits may be hundreds of metres from intrusive.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_40",
+      "Attribute": "mineralizationHasElementEnhancedToOre",
+      "Value": "element_10 - Pb",
+      "Frequency": "usually",
+      "Label": "Pb",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_59",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_12 - Mn",
+      "Frequency": "sometimes",
+      "Label": "Mn",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_58",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_11 - Cu",
+      "Frequency": "sometimes",
+      "Label": "Cu",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_37",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_07 - F",
+      "Frequency": "sometimes",
+      "Label": "F",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_36",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_06 - Sn",
+      "Frequency": "sometimes",
+      "Label": "Sn",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_39",
+      "Attribute": "mineralizationHasElementEnhancedToOre",
+      "Value": "element_09 - Zn",
+      "Frequency": "usually",
+      "Label": "Zn",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_38",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_08 - Be",
+      "Frequency": "rarely",
+      "Label": "Be",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_33",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_03 - Ag",
+      "Frequency": "sometimes",
+      "Label": "Ag",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_32",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_02 - Au",
+      "Frequency": "sometimes",
+      "Label": "Au",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_35",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_05 - W",
+      "Frequency": "sometimes",
+      "Label": "W",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_34",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_04 - As",
+      "Frequency": "sometimes",
+      "Label": "As",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_30",
+      "Attribute": "mineralizationHasElementEnhanced",
+      "Value": "element_01 - Co",
+      "Frequency": "sometimes",
+      "Label": "Co",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_44",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_10 - Chalcopyrite",
+      "Frequency": "sometimes",
+      "Label": "Chalcopyrite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_56",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_19 - Silver",
+      "Frequency": "sometimes",
+      "Label": "Silver",
+      "Comment": "silver. Does not form minerals.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_45",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_11 - Bornite",
+      "Frequency": "sometimes",
+      "Label": "Bornite",
+      "Comment": "bornite.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_46",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_12 - Arsenopyrite",
+      "Frequency": "sometimes",
+      "Label": "Arsenopyrite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_47",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_13 - Scheelite",
+      "Frequency": "sometimes",
+      "Label": "Scheelite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_48",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_14 - Bismuthinite",
+      "Frequency": "sometimes",
+      "Label": "Bismuthinite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_49",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_15 - Stannite",
+      "Frequency": "sometimes",
+      "Label": "Stannite",
+      "Comment": "stannite.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_50",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_16 - Fluorite",
+      "Frequency": "sometimes",
+      "Label": "Fluorite",
+      "Comment": "fluorite.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_51",
+      "Attribute": "mineralizationHasMineralEnhancedToOre",
+      "Value": "mineral_17 - Galena",
+      "Frequency": "usually",
+      "Label": "Galena",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_52",
+      "Attribute": "mineralizationHasMineralEnhancedToOre",
+      "Value": "mineral_18 - Sphalerite",
+      "Frequency": "usually",
+      "Label": "Sphalerite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_42",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_08 - Pyrite",
+      "Frequency": "sometimes",
+      "Label": "Pyrite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_43",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_09 - Magnetite",
+      "Frequency": "sometimes",
+      "Label": "Magnetite",
+      "Comment": "magnetite.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_31",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_06 - Gold",
+      "Frequency": "sometimes",
+      "Label": "Gold",
+      "Comment": "gold. Does not form minerals.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 2,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_41",
+      "Attribute": "mineralizationHasMineralEnhanced",
+      "Value": "mineral_07 - Pyrrhotite",
+      "Frequency": "sometimes",
+      "Label": "Pyrrhotite",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_descendent_ent\"}",
+    "Advice": "No advice for entity null descendent"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_2",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_01 - arenite",
+      "Frequency": "present",
+      "Label": "arenite",
+      "Comment": "0.0. Argilito,Conglomerado,Siltito,Arenito,. clay,conglomeritic arenite,siltstone,sand,sandy argillite. From geology file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10006",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_19 - Sn",
+      "Frequency": "sometimes",
+      "Label": "Sn",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Sn is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Sn present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10000",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_14 - Co",
+      "Frequency": "sometimes",
+      "Label": "Co",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Co is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Co present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_5",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_04 - generic_mudstone",
+      "Frequency": "present",
+      "Label": "generic mudstone",
+      "Comment": "generic_mudstone. 0.0. Argilito,Conglomerado,Siltito,Arenito,. clay,conglomeritic arenite,siltstone,sand,sandy argillite. From geology file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10003",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_16 - Ag",
+      "Frequency": "sometimes",
+      "Label": "Ag",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Ag is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Ag present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_6",
+      "Attribute": "depositHasRockHost",
+      "Value": "earthmaterial_05 - sand",
+      "Frequency": "present",
+      "Label": "sand",
+      "Comment": "0.0. Argilito,Conglomerado,Siltito,Arenito,. clay,conglomeritic arenite,siltstone,sand,sandy argillite. From geology file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_10002",
+      "Attribute": "depositHasElementMznEnhanced",
+      "Value": "element_15 - Au",
+      "Frequency": "sometimes",
+      "Label": "Au",
+      "Comment": "Propagated",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that Au is sometimes present at enhanced levels.\", \"suggestion\":\"Check whether the instance has Au present at enhanced levels.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_9",
+      "Attribute": "depositHasSettingGenetic",
+      "Value": "setting_03 - surface",
+      "Frequency": "present",
+      "Label": "surface",
+      "Comment": "COBERTURAS SUPERFICIAIS. surficial cover. From tectonics file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_7",
+      "Attribute": "depositHasSettingGenetic",
+      "Value": "setting_01 - passive_margin",
+      "Frequency": "present",
+      "Label": "passive margin",
+      "Comment": "intraplaca e margem passiva,. intraplate and passive margin,. From tectonics file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": "null - null",
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_8",
+      "Attribute": "depositHasSettingGenetic",
+      "Value": "setting_02 - intraplate",
+      "Frequency": "present",
+      "Label": "intraplate",
+      "Comment": "intraplaca e margem passiva,. intraplate and passive margin,. From tectonics file.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"null_entity\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "equivalent_ppts - disjoint",
+    "InfocusAttribute": {
+      "Id": "6548_2",
+      "Attribute": "depositHasAge",
+      "Value": "http://resource.geosciml.org/classifier/ics/ischart/Mesozoic-Mesozoic - http://resource.geosciml.org/classifier/ics/ischart/Mesozoic-Mesozoic",
+      "Frequency": "usually",
+      "Label": "Mesozoic",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "634088_11",
+      "Attribute": "depositHasAgeNumeric",
+      "Value": "1.75-65 - 1.75-65",
+      "Frequency": "present",
+      "Label": "1.75-65 ma",
+      "Comment": "",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"value_taxonomic_trace\":\"1.75-65 is disjointed with Mesozoic-Mesozoic .\",\"attribute_taxonomic_trace\":\"depositHasAgeNumeric is equivalent to depositHasAge .\",\"score_trace\":\"The weighted base reward of intervals for frequency usually(IF) and present(T) = 0.0. Multiplier (determined by the interval relations and frequency) = 1. Reward = 0.0*1 =0. Reward is scaled by 1. Therefore Final Score = 0*1 =0. \",\"descendants_score\":\"Score for matching the descendant attributes of the current values: 0. \"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_19",
+      "Attribute": "depositHasZoneIn",
+      "Value": "zonein_1 - ZoneIn",
+      "Frequency": "sometimes",
+      "Label": "zonein_1",
+      "Comment": "zoneIn 1.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_82",
+      "Attribute": "depositHasZoneIn",
+      "Value": "zonein_2 - ZoneIn",
+      "Frequency": "sometimes",
+      "Label": "zonein_2",
+      "Comment": "zoneIn 2.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_60",
+      "Attribute": "depositHasZoneOut",
+      "Value": "zoneout_2 - ZoneOut",
+      "Frequency": "sometimes",
+      "Label": "zoneout_2",
+      "Comment": "zoneOut 2.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_90",
+      "Attribute": "depositHasZoneOut",
+      "Value": "zoneout_3 - ZoneOut",
+      "Frequency": "sometimes",
+      "Label": "zoneout_3",
+      "Comment": "zoneOut 3.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": 0,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_88",
+      "Attribute": "depositHasZoneOut",
+      "Value": "zoneout_1 - ZoneOut",
+      "Frequency": "sometimes",
+      "Label": "zoneout_1",
+      "Comment": "zoneOut 1.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null_placeholder\"}",
+    "Advice": ""
+  },
+  {
+    "NodeLevel": 1,
+    "NodeScore": -10,
+    "MatchType": "unmatched - unmatched",
+    "InfocusAttribute": {
+      "Id": "6548_993",
+      "Attribute": "depositHasSettingGenetic",
+      "Value": "setting_01 - continental",
+      "Frequency": "sometimes",
+      "Label": "continental",
+      "Comment": "Tectonic Setting; Continental margin, late orogenic magmatism. Depositional Environment; Miogeosynclinal sequences intruded by generally small bodies of igneous rock.",
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "TargetAttribute": {
+      "Id": "",
+      "Attribute": null,
+      "Value": null,
+      "Frequency": "",
+      "Label": null,
+      "Comment": null,
+      "CommentUrl": "-",
+      "Ref": "-",
+      "RefUrl": "-"
+    },
+    "Explanation": "{\"entity_null\"}",
+    "Advice": "[{ \"infocusInfo\":\"The model states that continental is sometimes present.\", \"suggestion\":\"Check whether the instance has continental present.\", \"yes\":\"If so, the score improves by %s.\", \"no\":\"If not, the score decreases by %s.\", \"yesScore\":1010, \"noScore\":990}]"
+  }
+]
