@@ -1,10 +1,22 @@
 <?php
+					require "hotreloader.php";
+					$reloader = new HotReloader();
+					$reloader->init();
+					error_reporting(E_ERROR | E_PARSE);
+
 					function console_log( $data ){
 						echo '<script>';
 						echo 'console.log('. json_encode( $data ) .')';
 						echo '</script>';
 					}
-
+				
+					function console_log2( $data ){
+						echo '<script>';
+						echo 'console.log(JSON.stringify('. json_encode( $data ) .', null, 2))';
+						echo '</script>';
+					}
+				
+					
 					$arr = array(
 						array(
 							"NodeLevel" => 0,			'val' => 20						),
@@ -49,7 +61,8 @@
 						array(
 							"NodeLevel" => 3,							'val' => 1						),
 					);
-
+					echo 'hi';
+					
 					function endKey($array)
 					{
 						end($array);
@@ -96,30 +109,29 @@
 						}
 					}
 
-					$nodes = make_tree($matchResults["SpotMatchResultPair"]);
+					$nodes = make_tree($arr);
 
 					sortTree($nodes);
 					//console_log($matchResults["SpotMatchResultPair"]);
 					console_log($nodes);
 					$adviceRowCount = 0;
 
+				
 
-					function flattenTree($nodes){
-						$flatTree = [];
-						foreach($nodes as $node){
-							$tempArr = new stdClass();
-							foreach($node as $key=>$pair){
-								if($key=='children' && sizeof($pair)>0){
-									flattenTree($pair);
-								} else{
-									$tempArr->$key = $pair;
-								}
+					console_log(flattenTree($nodes));
+
+					function flattenTree($tree)
+					{
+						$tempArr = [];
+						foreach($tree as $key => $value){
+							$tempArr[$key]=$value;
+							if(isset($value['children']) && sizeof($value['children'])>0){
+								$tempArr = array_merge($tempArr, flattenTree($value['children']));
 							}
-							array_push($flatTree,$tempArr);
-							console_log($flatTree);
 						}
+						
+						return $tempArr;
 					}
 
-					flattenTree($nodes);
 
 ?>
