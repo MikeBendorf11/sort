@@ -9,14 +9,14 @@
 						echo 'console.log('. json_encode( $data ) .')';
 						echo '</script>';
 					}
-				
+
 					function console_log2( $data ){
 						echo '<script>';
 						echo 'console.log(JSON.stringify('. json_encode( $data ) .', null, 2))';
 						echo '</script>';
 					}
-				
-					
+
+
 					$arr = array(
 						array(
 							"NodeLevel" => 0,			'val' => 20						),
@@ -62,7 +62,7 @@
 							"NodeLevel" => 3,							'val' => 1						),
 					);
 					echo 'hi';
-					
+
 					function endKey($array)
 					{
 						end($array);
@@ -116,7 +116,7 @@
 					console_log($nodes);
 					$adviceRowCount = 0;
 
-				
+
 
 					console_log(flattenTree($nodes));
 
@@ -129,7 +129,7 @@
 								$tempArr = array_merge($tempArr, flattenTree($value['children']));
 							}
 						}
-						
+
 						return $tempArr;
 					}
 
