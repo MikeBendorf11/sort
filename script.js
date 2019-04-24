@@ -51,7 +51,12 @@ const x = transform(arr)
 sortTree(x)
 console.log(JSON.stringify(x, null, 2))
 console.log(x)
-/*
+
+/* ******************************************************************* */
+/* ******************************************************************* */
+/* **************MY VERSION******************************************* */
+/* ******************************************************************* */
+
 setInheritance()
 
 //add more levels if necessary, no need to automate
@@ -145,4 +150,3 @@ function comp(a,b){
   return x;
 }
 
-*/
