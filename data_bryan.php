@@ -1,0 +1,26 @@
+<?php
+$arr = array(
+  array("NodeLevel" => 0,	'val1' => 'z', 'val2' =>'gg'),
+  array("NodeLevel" => 1, 'val1' => 'x', 'val2' =>'tt'),
+  array("NodeLevel" => 2, 'val1' => 'h', 'val2' =>'jj'),
+  array("NodeLevel" => 3, 'val1' => 'e', 'val2' =>'dd'),
+  array("NodeLevel" => 4, 'val1' => 'c', 'val2' =>'tt'),
+  array("NodeLevel" => 3, 'val1' => 'c', 'val2' =>'hh'),
+  array("NodeLevel" => 3, 'val1' => 's', 'val2' =>'bb'),
+  array("NodeLevel" => 4, 'val1' => 'x', 'val2' =>'cc'),
+  array("NodeLevel" => 2, 'val1' => 'u', 'val2' =>'rr'),
+  array("NodeLevel" => 1, 'val1' => 'j', 'val2' =>'yy'),
+  array("NodeLevel" => 1, 'val1' => 'n', 'val2' =>'qq'),
+  array("NodeLevel" => 2, 'val1' => 'u', 'val2' =>'ww'),
+  array("NodeLevel" => 2, 'val1' => 'y', 'val2' =>'ll'),
+  array("NodeLevel" => 3, 'val1' => 't', 'val2' =>'ii'),
+  array("NodeLevel" => 2, 'val1' => 't', 'val2' =>'oo'),
+  array("NodeLevel" => 2, 'val1' => 'r', 'val2' =>'pp'),
+  array("NodeLevel" => 3, 'val1' => 'r', 'val2' =>'mm'),
+  array("NodeLevel" => 3, 'val1' => 'e', 'val2' =>'nn'),
+  array("NodeLevel" => 1, 'val1' => 'a', 'val2' =>'bb'),
+  array("NodeLevel" => 2, 'val1' => 'w', 'val2' =>'aa'),
+  array("NodeLevel" => 3, 'val1' => 'q', 'val2' =>'uu'),
+  array("NodeLevel" => 0,	'val1' => 'k', 'val2' =>'dd'),
+);
+?>

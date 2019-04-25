@@ -78,6 +78,11 @@
     
     return $compArr;
   }
+  //new attemp to make lvl2 an arr or arrs so 
+  //i can sort them individually
+  function getLevel($level, $arr){
+    
+  }
   //compare function
   function comp($a, $b){
     $a1 = $a["InfocusAttribute"]["Attribute"];
