@@ -53,9 +53,9 @@
 	{
     $a1 = $a["InfocusAttribute"]["Attribute"];
 		$b1 = $b["InfocusAttribute"]["Attribute"];
-		if($a1 == 'weatheringHasMineralEnhanced'){
-			$kk=0;
-		}
+		// if($a1 == 'weatheringHasMineralEnhanced'){
+		// 	$kk=0;
+		// }
     if($a1 == $b1){
       $a2 = $a["InfocusAttribute"]["Label"];
       $b2 =  $b["InfocusAttribute"]["Label"];
@@ -67,22 +67,26 @@
     return $x;
 	}
 
-	function sort_children(&$node)
-	{
-		usort($node['children'], 'compare');
-		foreach ($node['children'] as $child) {
-			if (isset($child['children']) && sizeof($child['children']) > 1){
-				sort_children($child);
-			}
-		}
-	}
+	// function sort_children(&$node)
+	// {
+	// 	usort($node['children'], 'compare');
+	// 	foreach ($node['children'] as $child) {
+	// 		if (isset($child['children']) && sizeof($child['children']) > 1){
+	// 			sort_children($child);
+	// 		}
+	// 	}
+	// }
 
 	function sortTree2(&$tree)
 	{
 		usort($tree, 'compare');
-		foreach ($tree as $child) {
-			if (isset($child['children'])&&sizeof($child['children'])>1) {
-					sortTree2($child['children']);
+		foreach ($tree as $key=> $child) {
+			if (isset($child['children'])) {
+				if(sizeof($child['children'])>1){
+					//usort($child['children'], 'compare');
+					sortTree2($tree[$key]['children']);
+				}
+				else return;
 			}
 		}
 	}
@@ -124,29 +128,17 @@ function findParents($arr, &$result){
 	//return $toSort;
 }
 	
-findParents($nodes, $result);
+//findParents($nodes, $result);
 //console_log($result);
 	
-	//sortTree2($nodes);
+	sortTree2($nodes);
 	//usort($nodes[0]['children'][21]['children'], 'compare');
 	//console_log($nodes[0]['children'][21]['children']);
 
-	//console_log($nodes);
+	console_log($nodes);
 	//$nodes = flattenTree($nodes);
 	//console_log($nodes);
-	
-	
-	function test2(&$x){
-		if($x>0) {
-			console_log($x);
-			$x--;  
-			test2($x);
-		}
-	}
 
 
-	$x = 2;
-	test2($x);
-	console_log($x);
 
 ?>
